@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body-style{
+    width: 90%;
+    margin: 0 auto;
+}
+.logostyle{
+height: 45px;
+}
+.nav-item{
+   color:  #262626;
+}
+.carousel-item{
+    position: relative;
+    z-index: 1;
+}
+.carousel-caption{
+    position: absolute;
+    top: 10%;
+    left: 7%!important;
+    color: black;
+}
+.carousel-caption p, h3{
+    text-align: left;
+
+}
+.carousel-caption p{
+    text-align: left;
+    color: white;
+    
+
+}
+.carousel-caption button{
+    color: #fff;
+    background: #000;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    left: 0;
+    position: absolute;
+}
+
+main{
+margin-top: 40px;
+margin-bottom: 40px;
+height: 327px !important;
+
+}
+.card{
+    border: none !important;
+}
+.card-body{
+    padding: 15px 0 !important;
+}
+.card-img-top{
+    height: 170px;
+
+}
+.msstyle{
+    width: 100%;
+    height: 450px;
+    background:linear-gradient( to right, rgba(0,0,0,0.7),rgba(0,0,0,0)), url('../card2.jpg')no-repeat center;
+    background-size: cover;
+    margin: 20px 0 50px 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-left: 24px;
+
+
+}
+button{
+    color: black;
+    background: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+  
+   
+}
+.btmcardsection{
+    margin: 49px 0;
+}
+.socialsec{
+    margin-bottom: 40px;
+   
+}
+.fa-youtube{
+    color: red;
+  
+}
+.fa-facebook-official{
+    color: #425daa;
+   
+}
+.col-lg-1{
+    max-width: 5.333333% !important;
+}
+#col{
+    max-width: 12.66666%
+}
+footer{
+    background-color: #f2f2f2;
+    padding: 40px 0;
+}
+footer ul li{
+    list-style: none;
+    
+}
+footer a{
+    text-decoration: none;
+    color: #818181;
+    font-size: 11.5px;
+}
+.footerbtmcedit{
+    display: flex;
+    justify-content: space-between;
+}
